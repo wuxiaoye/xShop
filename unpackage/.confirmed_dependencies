@@ -1,264 +1,341 @@
 {
-  "index.html": {
-    "resources": [
-      "home/home.html",
-      "AmazeUI-2.4.2/assets/js/jquery.min.js",
-      "js/mui.min.js",
-      "fonts/mui.ttf",
-      "css/mui.min.css",
-      "home/shopcart.html",
-      "css/icons-extra.css",
-      "fonts/mui-icons-extra.ttf",
-      "AmazeUI-2.4.2/assets/js/amazeui.min.js"
-    ],
-    "refer": [
-      "home/home.html",
-      "person/index.html",
-      "home/sort.html",
-      "home/shopcart.html"
-    ]
-  },
-  "person/index.html": {
-    "resources": [
-      "css/systyle.css",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "images/-0-saturn_solar.jpg_220x220.jpg",
-      "images/day-to.png",
-      "images/1-item_pic.jpg_220x220.jpg",
-      "images/comment.png",
-      "images/iconsmall1.png",
-      "images/imgsearch1.jpg",
-      "css/personal.css",
-      "images/iconsmall3.png",
-      "images/side.png",
-      "images/0-item_pic.jpg_220x220.jpg",
-      "images/receive.png",
-      "images/88.jpg_120x120xz.jpg",
-      "images/iconsmall2.png",
-      "images/refund.png",
-      "images/72h.png",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "images/þ.png",
-      "images/iconbig.png",
-      "images/send.png",
-      "images/bonus.png",
-      "images/iconsmall0.png",
-      "images/pay.png",
-      "images/65.jpg_120x120xz.jpg",
-      "images/wallet.png",
-      "images/coupon.png",
-      "person/order.html",
-      "home/home.html",
-      "AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
-      "person/coupon.html"
-    ],
-    "refer": [
-      "person/order.html",
-      "home/home.html",
-      "person/coupon.html"
-    ]
-  },
-  "home/sort.html": {
-    "resources": [
-      "basic/css/demo.css",
-      "css/sortstyle.css",
-      "home/shopcart.html",
-      "AmazeUI-2.4.2/assets/js/jquery.min.js",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "person/index.html",
-      "home/home.html",
-      "images/tea.png",
-      "images/cake.png",
-      "images/fish.png",
-      "images/bamboo.png",
-      "images/nut.png",
-      "images/chocolate.png",
-      "images/cookies.png",
-      "images/meat.png",
-      "images/TJ.jpg",
-      "images/logo.png",
-      "images/logobig.png",
-      "images/candy.png",
-      "images/package.png"
-    ],
-    "refer": [
-      "home/shopcart.html",
-      "person/index.html",
-      "home/home.html"
-    ]
-  },
-  "home/home.html": {
-    "resources": [
-      "images/act1.png",
-      "images/fish.png",
-      "images/bamboo.png",
-      "images/chongzhi.png",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "images/activity2.jpg",
-      "images/activity3.jpg",
-      "images/3.jpg",
-      "images/7.jpg",
-      "images/4.jpg",
-      "images/9.jpg",
-      "images/tj2.png",
-      "home/sort.html",
-      "images/tj1.png",
-      "AmazeUI-2.4.2/assets/js/amazeui.min.js",
-      "images/ad4.jpg",
-      "images/moneysmall.jpg",
-      "images/ad1.jpg",
-      "images/candy.png",
-      "images/wdsc.png",
-      "images/tea.png",
-      "images/weixin_code_145.png",
-      "images/10.jpg",
-      "css/hmstyle.css",
-      "AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
-      "images/no-img_mid_.jpg",
-      "images/2016.png",
-      "images/TJ.jpg",
-      "images/ad2.jpg",
-      "basic/js/quick_links.js",
-      "images/navsmall.jpg",
-      "images/package.png",
-      "images/getAvatar.do.jpg",
-      "basic/css/demo.css",
-      "images/nut.png",
-      "images/cookies.png",
-      "images/meat.png",
-      "images/logo.png",
-      "images/logobig.png",
-      "images/TJ2.jpg",
-      "images/6.jpg",
-      "images/cake.png",
-      "images/2.jpg",
-      "css/skin.css",
-      "images/5.jpg",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "images/chocolate.png",
-      "images/activity1.jpg",
-      "images/huismall.jpg",
-      "images/mansmall.jpg",
-      "images/8.jpg",
-      "images/ad3.jpg",
-      "images/tj.png",
-      "images/1.jpg",
-      "images/advTip.jpg",
-      "images/activity.jpg",
-      "AmazeUI-2.4.2/assets/js/jquery.min.js",
-      "home/shopcart.html",
-      "person/index.html"
-    ],
-    "refer": [
-      "home/sort.html",
-      "home/shopcart.html",
-      "person/index.html"
-    ]
-  },
-  "home/shopcart.html": {
-    "resources": [
-      "basic/css/demo.css",
-      "person/index.html",
-      "images/kouhong.jpg_80x80.jpg",
-      "css/optstyle.css",
-      "css/cartstyle.css",
-      "js/jquery.js",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "home/sort.html",
-      "home/pay.html",
-      "AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
-      "images/logobig.png",
-      "images/logo.png"
-    ],
-    "refer": [
-      "person/index.html",
-      "home/sort.html",
-      "home/pay.html"
-    ]
-  },
-  "person/order.html": {
-    "resources": [
-      "css/orstyle.css",
-      "css/personal.css",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "images/62988.jpg_80x80.jpg",
-      "AmazeUI-2.4.2/assets/js/amazeui.js",
-      "AmazeUI-2.4.2/assets/js/jquery.min.js",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "person/logistics.html",
-      "images/kouhong.jpg_80x80.jpg",
-      "person/orderinfo.html"
-    ],
-    "refer": [
-      "person/logistics.html",
-      "person/orderinfo.html"
-    ]
-  },
-  "home/pay.html": {
-    "resources": [
-      "images/zhifubao.jpg",
-      "css/jsstyle.css",
-      "basic/css/demo.css",
-      "images/peraddress.png",
-      "js/address.js",
-      "images/wangyin.jpg",
-      "images/kuaidi.png",
-      "css/cartstyle.css",
-      "images/weizhifu.jpg",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "home/success.html",
-      "home/pay.html"
-    ],
-    "refer": [
-      "home/success.html",
-      "home/pay.html"
-    ]
-  },
-  "home/success.html": {
-    "resources": [
-      "basic/js/jquery-1.7.min.js",
-      "basic/css/demo.css",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "images/T13iv.XiFdXXa94Hfd-32-32.png",
-      "person/order.html",
-      "AmazeUI-2.4.2/assets/css/amazeui.css",
-      "css/sustyle.css"
-    ],
-    "refer": [
-      "person/order.html"
-    ]
-  },
-  "person/logistics.html": {
-    "resources": [
-      "css/personal.css",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "css/lostyle.css",
-      "AmazeUI-2.4.2/assets/css/amazeui.css"
-    ]
-  },
-  "person/orderinfo.html": {
-    "resources": [
-      "css/orstyle.css",
-      "images/addicon.png",
-      "images/sprite.png",
-      "css/personal.css",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "images/receive.png",
-      "AmazeUI-2.4.2/assets/js/amazeui.js",
-      "AmazeUI-2.4.2/assets/js/jquery.min.js",
-      "AmazeUI-2.4.2/assets/css/amazeui.css"
-    ]
-  },
-  "person/coupon.html": {
-    "resources": [
-      "images/gift_stamp_31.png",
-      "css/cpstyle.css",
-      "css/personal.css",
-      "AmazeUI-2.4.2/assets/css/admin.css",
-      "images/gift_stamp_21.png",
-      "AmazeUI-2.4.2/assets/js/amazeui.js",
-      "AmazeUI-2.4.2/assets/js/jquery.min.js",
-      "AmazeUI-2.4.2/assets/css/amazeui.css"
-    ]
-  }
+	"index.html": {
+		"resources": [
+			"home/home.html",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"home/shopcart.html",
+			"css/icons-extra.css",
+			"fonts/mui-icons-extra.ttf",
+			"AmazeUI-2.4.2/assets/js/amazeui.min.js"
+		],
+		"refer": [
+			"home/home.html",
+			"person/index.html",
+			"home/sort.html",
+			"home/shopcart.html"
+		]
+	},
+	"person/index.html": {
+		"resources": [
+			"css/systyle.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/-0-saturn_solar.jpg_220x220.jpg",
+			"images/day-to.png",
+			"images/1-item_pic.jpg_220x220.jpg",
+			"images/comment.png",
+			"images/iconsmall1.png",
+			"images/imgsearch1.jpg",
+			"css/personal.css",
+			"images/iconsmall3.png",
+			"images/side.png",
+			"images/0-item_pic.jpg_220x220.jpg",
+			"images/receive.png",
+			"images/88.jpg_120x120xz.jpg",
+			"images/iconsmall2.png",
+			"images/refund.png",
+			"images/72h.png",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"images/ï¿½\u0007.png",
+			"images/iconbig.png",
+			"images/send.png",
+			"images/bonus.png",
+			"images/iconsmall0.png",
+			"images/pay.png",
+			"images/65.jpg_120x120xz.jpg",
+			"images/wallet.png",
+			"images/coupon.png",
+			"person/order.html",
+			"home/home.html",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
+			"person/coupon.html",
+			"images/getAvatar.do.jpg",
+			"images/logobig.png"
+		],
+		"refer": [
+			"person/order.html",
+			"home/home.html",
+			"person/coupon.html"
+		]
+	},
+	"home/sort.html": {
+		"resources": [
+			"basic/css/demo.css",
+			"css/sortstyle.css",
+			"home/shopcart.html",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"person/index.html",
+			"home/home.html",
+			"images/tea.png",
+			"images/cake.png",
+			"images/fish.png",
+			"images/bamboo.png",
+			"images/nut.png",
+			"images/chocolate.png",
+			"images/cookies.png",
+			"images/meat.png",
+			"images/TJ.jpg",
+			"images/logo.png",
+			"images/logobig.png",
+			"images/candy.png",
+			"images/package.png"
+		],
+		"refer": [
+			"home/shopcart.html",
+			"person/index.html",
+			"home/home.html"
+		]
+	},
+	"home/home.html": {
+		"resources": [
+			"images/act1.png",
+			"images/fish.png",
+			"images/bamboo.png",
+			"images/chongzhi.png",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/activity2.jpg",
+			"images/activity3.jpg",
+			"images/3.jpg",
+			"images/7.jpg",
+			"images/4.jpg",
+			"images/9.jpg",
+			"images/tj2.png",
+			"home/sort.html",
+			"images/tj1.png",
+			"AmazeUI-2.4.2/assets/js/amazeui.min.js",
+			"images/ad4.jpg",
+			"images/moneysmall.jpg",
+			"images/ad1.jpg",
+			"images/candy.png",
+			"images/wdsc.png",
+			"images/tea.png",
+			"images/weixin_code_145.png",
+			"images/10.jpg",
+			"css/hmstyle.css",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
+			"images/no-img_mid_.jpg",
+			"images/2016.png",
+			"images/TJ.jpg",
+			"images/ad2.jpg",
+			"basic/js/quick_links.js",
+			"images/navsmall.jpg",
+			"images/package.png",
+			"images/getAvatar.do.jpg",
+			"basic/css/demo.css",
+			"images/nut.png",
+			"images/cookies.png",
+			"images/meat.png",
+			"images/logo.png",
+			"images/logobig.png",
+			"images/TJ2.jpg",
+			"images/6.jpg",
+			"images/cake.png",
+			"images/2.jpg",
+			"css/skin.css",
+			"images/5.jpg",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"images/chocolate.png",
+			"images/activity1.jpg",
+			"images/huismall.jpg",
+			"images/mansmall.jpg",
+			"images/8.jpg",
+			"images/ad3.jpg",
+			"images/tj.png",
+			"images/1.jpg",
+			"images/advTip.jpg",
+			"images/activity.jpg",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"home/shopcart.html",
+			"person/index.html",
+			"js/mui.min.js",
+			"home/login.html",
+			"home/introduction.html",
+			"js/app.js"
+		],
+		"refer": [
+			"home/sort.html",
+			"home/shopcart.html",
+			"person/index.html",
+			"home/login.html",
+			"home/introduction.html",
+			"home/register.html"
+		]
+	},
+	"home/shopcart.html": {
+		"resources": [
+			"basic/css/demo.css",
+			"person/index.html",
+			"images/kouhong.jpg_80x80.jpg",
+			"css/optstyle.css",
+			"css/cartstyle.css",
+			"js/jquery.js",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"home/sort.html",
+			"home/pay.html",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
+			"images/logobig.png",
+			"images/logo.png"
+		],
+		"refer": [
+			"person/index.html",
+			"home/sort.html",
+			"home/pay.html"
+		]
+	},
+	"person/order.html": {
+		"resources": [
+			"css/orstyle.css",
+			"css/personal.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/62988.jpg_80x80.jpg",
+			"AmazeUI-2.4.2/assets/js/amazeui.js",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"person/logistics.html",
+			"images/kouhong.jpg_80x80.jpg",
+			"person/orderinfo.html"
+		],
+		"refer": [
+			"person/logistics.html",
+			"person/orderinfo.html"
+		]
+	},
+	"home/pay.html": {
+		"resources": [
+			"images/zhifubao.jpg",
+			"css/jsstyle.css",
+			"basic/css/demo.css",
+			"images/peraddress.png",
+			"js/address.js",
+			"images/wangyin.jpg",
+			"images/kuaidi.png",
+			"css/cartstyle.css",
+			"images/weizhifu.jpg",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"home/success.html",
+			"home/pay.html"
+		],
+		"refer": [
+			"home/success.html",
+			"home/pay.html"
+		]
+	},
+	"home/success.html": {
+		"resources": [
+			"basic/js/jquery-1.7.min.js",
+			"basic/css/demo.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/T13iv.XiFdXXa94Hfd-32-32.png",
+			"person/order.html",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"css/sustyle.css"
+		],
+		"refer": [
+			"person/order.html"
+		]
+	},
+	"person/logistics.html": {
+		"resources": [
+			"css/personal.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"css/lostyle.css",
+			"AmazeUI-2.4.2/assets/css/amazeui.css"
+		],
+		"refer": []
+	},
+	"person/orderinfo.html": {
+		"resources": [
+			"css/orstyle.css",
+			"images/addicon.png",
+			"images/sprite.png",
+			"css/personal.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/receive.png",
+			"AmazeUI-2.4.2/assets/js/amazeui.js",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"AmazeUI-2.4.2/assets/css/amazeui.css"
+		],
+		"refer": []
+	},
+	"person/coupon.html": {
+		"resources": [
+			"images/gift_stamp_31.png",
+			"css/cpstyle.css",
+			"css/personal.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/gift_stamp_21.png",
+			"AmazeUI-2.4.2/assets/js/amazeui.js",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"AmazeUI-2.4.2/assets/css/amazeui.css"
+		],
+		"refer": []
+	},
+	"home/login.html": {
+		"resources": [
+			"images/big.jpg",
+			"css/dlstyle.css",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"home/register.html",
+			"js/mui.min.js",
+			"js/app.js",
+			"images/logobig.png",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+		],
+		"refer": [
+			"home/register.html"
+		]
+	},
+	"home/introduction.html": {
+		"resources": [
+			"images/02.jpg",
+			"basic/css/demo.css",
+			"js/jquery.imagezoom.min.js",
+			"images/03.jpg",
+			"images/hwbn40x40.jpg",
+			"images/01.jpg",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/browse1.jpg",
+			"images/tw7.jpg",
+			"images/tw5.jpg",
+			"images/songzi.jpg",
+			"js/jquery.flexslider.js",
+			"images/cp.jpg",
+			"images/tw4.jpg",
+			"basic/js/jquery-1.7.min.js",
+			"images/tw6.jpg",
+			"AmazeUI-2.4.2/assets/js/amazeui.js",
+			"images/01_mid.jpg",
+			"images/02_small.jpg",
+			"css/style.css",
+			"images/tw3.jpg",
+			"images/tw1.jpg",
+			"images/tw2.jpg",
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"images/cp2.jpg",
+			"images/01_small.jpg",
+			"css/optstyle.css",
+			"js/list.js",
+			"basic/js/quick_links.js",
+			"images/03_small.jpg",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+		],
+		"refer": []
+	},
+	"home/register.html": {
+		"resources": [
+			"AmazeUI-2.4.2/assets/css/amazeui.min.css",
+			"AmazeUI-2.4.2/assets/js/amazeui.min.js",
+			"css/dlstyle.css",
+			"AmazeUI-2.4.2/assets/js/jquery.min.js",
+			"js/app.js",
+			"images/big.jpg",
+			"js/mui.min.js",
+			"images/logobig.png",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+		],
+		"refer": []
+	}
 }

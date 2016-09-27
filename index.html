@@ -54,111 +54,52 @@
     			bottom: '50px'
     		};
     	
+    	//初始化-首页
 		mui.init({
-			preloadLimit: 6,
+			preloadLimit: 10,
 			statusBarBackground :'#fda76e',
-			subpages: [{
-					id: 'home/home.html',
-					url: 'home/home.html',
-					styles: subpage_style
-			}]
+			subpages:[{
+		      url: subpages[0],
+		      id: subpages[0],
+		      styles: subpage_style
+		   }]
 		});
 		
-   	//创建子页面-选项卡页面，均隐藏；
-	mui.plusReady(function(){
-		var self = plus.webview.currentWebview();
-		var leng = subpages.length;
-		for(var i = 0; i < leng; i++ ){
-			var sub = plus.webview.create(subpages[i],subpages[i],subpage_style);
-			if(i>0){
-				sub.hide();
+		mui.plusReady(function(){
+			//预加载页面
+			var leng = subpages.length;
+			var self = plus.webview.currentWebview();
+			for(var i=0 ; i < leng ; i++ ){
+				var sub = plus.webview.create(subpages[i],subpages[i],subpage_style);
+				if(i>0){
+					sub.hide();
+				}
+				self.append(sub);
 			}
-			self.append(sub);
-		}
-		main = plus.webview.currentWebview();
-		main.addEventListener('maskClick', closeMenu);
-		//处理侧滑导航，为了避免和子页面初始化等竞争资源，延迟加载侧滑页面；
-		setTimeout(function() {
 			
-			//TODO 侧边菜单
-			/*
-			menu = mui.preload({
-				id: 'index-menu',
-				url: 'index-menu.html',
-				styles: {
-					left: 0,
-					width: '60%',
-					zindex: -1
-				},
-				show: {
-					aniShow: 'none'
+			//选项卡点击事件
+			var activeTab = subpages[0];
+			var title = document.getElementById("web-title");
+			mui('.mui-bar-tab').on('tap', 'a', function(e) {
+				var targetTab = this.getAttribute('href');
+				if (targetTab == activeTab) {
+					return;
 				}
+				//更换标题
+				title.innerHTML = this.querySelector('.mui-tab-label').innerHTML;
+				//显示目标选项卡
+				plus.webview.show(targetTab);
+				//隐藏当前;
+				plus.webview.hide(activeTab);
+				//更改当前活跃的选项卡
+				activeTab = targetTab;
 			});
-			*/
-		}, 200);
-		
-		//当前激活选项
-		var activeTab = subpages[0];//首页
-		var searchBtn = document.getElementById("yue-nav-search-btn");
-		var title = document.getElementById("web-title");
-		//选项卡点击事件
-		mui('.mui-bar-tab').on('tap', 'a', function(e) {
-			var targetTab = this.getAttribute('href');
-			if (targetTab == activeTab) {
-				return;
-			}
-			//更换标题
-			title.innerHTML = this.querySelector('.mui-tab-label').innerHTML;
-			//显示目标选项卡
-			plus.webview.show(targetTab);
-			//隐藏当前;
-			plus.webview.hide(activeTab);
-			//更改当前活跃的选项卡
-			activeTab = targetTab;
+			
 		});
 		
-	});
-	/**
-	 * 关闭菜单
-	 */
-	function closeMenu() {
-		if (showMenu) {
-			//关闭遮罩；
-			//主窗体开始侧滑；
-			main.setStyle({
-				mask: 'none',
-				left: '0',
-				transition: {
-					duration: 200
-				}
-			});
-			showMenu = false;
-			//等动画结束后，隐藏菜单webview，节省资源；
-			setTimeout(function() {
-				menu.hide();
-			}, 300);
-		}
-	}
-   	//首页返回键处理- 处理逻辑：1秒内，连续两次按返回键，则退出应用；
-	var first = null;
-	mui.back = function() {
-		if (showMenu) {
-			closeMenu();
-		} else {
-			//首次按键，提示‘再按一次退出应用’
-			if (!first) {
-				first = new Date().getTime();
-				mui.toast('再按一次退出应用');
-				setTimeout(function() {
-					first = null;
-				}, 1000);
-			} else {
-				if (new Date().getTime() - first < 1000) {
-					plus.runtime.quit();
-				}
-			}
-		}
-	};
+		
+	
+	
     </script>
 </body>
 </html>

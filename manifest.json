@@ -12,9 +12,9 @@
     },
     "launch_path": "index.html",/*应用的入口页面，默认为根目录下的index.html；支持网络地址，必须以http://或https://开头*/
     "developer": {
-        "name": "",/*开发者名称*/
-        "email": "",/*开发者邮箱地址*/
-        "url": ""/*开发者个人主页地址*/
+        "name": "小闲",/*开发者名称*/
+        "email": "u123co@qq.com",/*开发者邮箱地址*/
+        "url": "www.xiaoxianyue.com"/*开发者个人主页地址*/
     },
     "permissions": {
         "Accelerometer": {
@@ -99,7 +99,7 @@
         },
         "NativeObj":{
         	"description": "原生对象"
-        }
+        },"Push":{}
     },
     "plus": {
         "splashscreen": {
@@ -109,7 +109,7 @@
         "popGesture": "close",/*设置应用默认侧滑返回关闭Webview窗口，"none"为无侧滑返回功能，"hide"为侧滑隐藏Webview窗口。参考http://ask.dcloud.net.cn/article/102*/
         "runmode": "normal",/*应用的首次启动运行模式，可取liberate或normal，liberate模式在第一次启动时将解压应用资源（Android平台File API才可正常访问_www目录）*/
         "signature": "Sk9JTiBVUyBtYWlsdG86aHIyMDEzQGRjbG91ZC5pbw==",/*可选，保留给应用签名，暂不使用*/
-        "distribute": {
+        "distribute": {"plugins":{"push":{"igexin":{"appid":"J1WnpjqCKvAyCfixWXMzj9","appkey":"UzkzRjNfmh7ht1RRO9xy6A","appsecret":"wsGCop8vSu6eW7hFlYv6F5"}}},
             "apple": {
                 "appid": "",/*iOS应用标识，苹果开发网站申请的appid，如io.dcloud.HelloH5*/
                 "mobileprovision": "",/*iOS应用打包配置文件*/
@@ -120,11 +120,11 @@
                 ]/*调用Native.js调用原生Objective-c API需要引用的FrameWork，如需调用GameCenter，则添加"GameKit.framework"*/
             },
             "google": {
-                "packagename": "",/*Android应用包名，如io.dcloud.HelloH5*/
+                "packagename": "com.xiaoxianyue.xShop",/*Android应用包名，如io.dcloud.HelloH5*/
                 "keystore": "",/*Android应用打包使用的密钥库文件*/
                 "password": "",/*Android应用打包使用密钥库中证书的密码*/
                 "aliasname": "",/*Android应用打包使用密钥库中证书的别名*/
-               "permissions": ["<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>","<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.READ_LOGS\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-feature android:name=\"android.hardware.camera.autofocus\"/>","<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.CAMERA\"/>","<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>","<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>","<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>","<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>","<uses-feature android:name=\"android.hardware.camera\"/>","<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>","<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"]
+               "permissions": ["<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>","<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>","<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>","<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>","<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>","<uses-permission android:name=\"android.permission.GET_TASKS\"/>","<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>","<uses-permission android:name=\"android.permission.VIBRATE\"/>","<uses-permission android:name=\"android.permission.READ_LOGS\"/>","<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>","<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>","<uses-permission android:name=\"android.permission.CALL_PHONE\"/>","<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>","<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>","<uses-feature android:name=\"android.hardware.camera.autofocus\"/>","<uses-feature android:name=\"android.hardware.camera\"/>","<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>","<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>","<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>","<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>","<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>","<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>","<uses-permission android:name=\"android.permission.CAMERA\"/>"]
 				/*使用Native.js调用原生安卓API需要使用到的系统权限*/
             },
             "orientation": ["portrait-primary","portrait-secondary","landscape-primary","landscape-secondary"],/*应用支持的方向，portrait-primary：竖屏正方向；portrait-secondary：竖屏反方向；landscape-primary：横屏正方向；landscape-secondary：横屏反方向*/
@@ -248,7 +248,9 @@
 					"person/order.html",
 					"home/home.html",
 					"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
-					"person/coupon.html"
+					"person/coupon.html",
+					"images/getAvatar.do.jpg",
+					"images/logobig.png"
 				],
 				"refer": [],
 				"priority": 0
@@ -339,9 +341,15 @@
 					"images/activity.jpg",
 					"AmazeUI-2.4.2/assets/js/jquery.min.js",
 					"home/shopcart.html",
-					"person/index.html"
+					"person/index.html",
+					"js/mui.min.js",
+					"home/login.html",
+					"home/introduction.html",
+					"js/app.js"
 				],
-				"refer": [],
+				"refer": [
+					"home/register.html"
+				],
 				"priority": 0
 			},
 			"home/shopcart.html": {
@@ -447,18 +455,82 @@
 				],
 				"refer": [],
 				"priority": 0
+			},
+			"home/login.html": {
+				"resources": [
+					"images/big.jpg",
+					"css/dlstyle.css",
+					"AmazeUI-2.4.2/assets/css/amazeui.css",
+					"home/register.html",
+					"js/mui.min.js",
+					"js/app.js",
+					"images/logobig.png",
+					"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"home/introduction.html": {
+				"resources": [
+					"images/02.jpg",
+					"basic/css/demo.css",
+					"js/jquery.imagezoom.min.js",
+					"images/03.jpg",
+					"images/hwbn40x40.jpg",
+					"images/01.jpg",
+					"AmazeUI-2.4.2/assets/css/admin.css",
+					"images/browse1.jpg",
+					"images/tw7.jpg",
+					"images/tw5.jpg",
+					"images/songzi.jpg",
+					"js/jquery.flexslider.js",
+					"images/cp.jpg",
+					"images/tw4.jpg",
+					"basic/js/jquery-1.7.min.js",
+					"images/tw6.jpg",
+					"AmazeUI-2.4.2/assets/js/amazeui.js",
+					"images/01_mid.jpg",
+					"images/02_small.jpg",
+					"css/style.css",
+					"images/tw3.jpg",
+					"images/tw1.jpg",
+					"images/tw2.jpg",
+					"AmazeUI-2.4.2/assets/css/amazeui.css",
+					"images/cp2.jpg",
+					"images/01_small.jpg",
+					"css/optstyle.css",
+					"js/list.js",
+					"basic/js/quick_links.js",
+					"images/03_small.jpg",
+					"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+				],
+				"refer": [],
+				"priority": 0
+			},
+			"home/register.html": {
+				"resources": [
+					"AmazeUI-2.4.2/assets/css/amazeui.min.css",
+					"AmazeUI-2.4.2/assets/js/amazeui.min.js",
+					"css/dlstyle.css",
+					"AmazeUI-2.4.2/assets/js/jquery.min.js",
+					"js/app.js",
+					"images/big.jpg",
+					"js/mui.min.js",
+					"images/logobig.png",
+					"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+				],
+				"refer": [],
+				"priority": 0
 			}
 		},
 		"idle": {
 			"resources": [
-				"images/02.jpg",
 				"images/act3.png",
 				"AmazeUI-2.4.2/assets/i/examples/adminPage.png",
 				"images/gift_stamp_3.png",
 				"AmazeUI-2.4.2/assets/i/examples/loginPage.png",
 				"css/footstyle.css",
 				"images/TB1SSK7JpXXXXXCXXXXXXXXXXXX-800-600.png",
-				"images/tw6.jpg",
 				"images/sale3.jpg",
 				"images/scoll2.png",
 				"images/gift_intro_bg.png",
@@ -473,7 +545,6 @@
 				"AmazeUI-2.4.2/assets/i/examples/admin-ie.png",
 				"images/566.png",
 				"person/record.html",
-				"js/jquery.imagezoom.min.js",
 				"AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.min.js",
 				"images/peraddressbg.png",
 				"images/ad8.jpg",
@@ -482,7 +553,6 @@
 				"person/billlist.html",
 				"AmazeUI-2.4.2/assets/i/examples/admin-safari.png",
 				"basic/images/logobar.png",
-				"images/01_mid.jpg",
 				"images/blog09.jpg",
 				"images/ad5.jpg",
 				"css/cmstyle.css",
@@ -492,21 +562,15 @@
 				"images/image.jpg",
 				"css/refstyle.css",
 				"js/jquery-1.7.2.min.js",
-				"images/01_small.jpg",
 				"images/iconfont-badon.png",
 				"AmazeUI-2.4.2/assets/i/startup-640x1096.png",
 				"person/change.html",
 				"frame.html",
 				"images/logobig1.png",
 				"images/TB102.jpg",
-				"images/hwbn40x40.jpg",
 				"images/addicon2.png",
-				"images/browse1.jpg",
-				"images/cp.jpg",
 				"home/home1.html",
-				"images/tw4.jpg",
 				"css/seastyle.css",
-				"css/dlstyle.css",
 				"images/gift_stamp_1.png",
 				"images/close.png",
 				"images/row3.jpg",
@@ -521,7 +585,6 @@
 				"images/iconfont-evaluate.png",
 				"AmazeUI-2.4.2/assets/i/app-icon72x72@2x.png",
 				"AmazeUI-2.4.2/assets/i/examples/sidebarPage.png",
-				"images/03.jpg",
 				"images/row1.jpg",
 				"css/newstyle.css",
 				"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.svg",
@@ -535,8 +598,6 @@
 				"images/coupon2015.png",
 				"images/02_mid.jpg",
 				"AmazeUI-2.4.2/assets/css/amazeui.flat.min.css",
-				"images/02_small.jpg",
-				"images/big.jpg",
 				"basic/images/weixin_code_145.png",
 				"basic/images/logo.png",
 				"images/navce.png",
@@ -544,19 +605,14 @@
 				"AmazeUI-2.4.2/assets/fonts/FontAwesome.otf",
 				"images/TB1_pic.jpg_200x200.jpg",
 				"person/refund.html",
-				"AmazeUI-2.4.2/assets/css/amazeui.min.css",
 				"images/gift_stamp_2.png",
 				"images/03_mid.jpg",
 				"images/package.jpg",
 				"images/iconfont-bad.png",
 				"css/addstyle.css",
 				"basic/images/logobig.png",
-				"images/01.jpg",
 				"images/checkbox.gif",
 				"images/sys_item_selected.gif",
-				"images/tw5.jpg",
-				"images/songzi.jpg",
-				"js/jquery.flexslider.js",
 				"person/bill.html",
 				"images/blog01.jpg",
 				"images/556.png",
@@ -564,7 +620,6 @@
 				"css/appstyle.css",
 				"home/search.html",
 				"images/couponli.png",
-				"images/tw2.jpg",
 				"images/return-process-cd.jpg",
 				"images/11.jpg",
 				"person/information.html",
@@ -572,9 +627,7 @@
 				"AmazeUI-2.4.2/assets/css/amazeui.flat.css",
 				"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.ttf",
 				"basic/images/loading.gif",
-				"home/introduction.html",
 				"person/email.html",
-				"images/tw7.jpg",
 				"images/cardbg.jpg",
 				"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.eot",
 				"AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.js",
@@ -594,8 +647,6 @@
 				"AmazeUI-2.4.2/assets/js/amazeui.widgets.helper.js",
 				"images/scoll1.png",
 				"images/sale-t.jpg",
-				"home/login.html",
-				"js/list.js",
 				"css/blogstyle.css",
 				"basic/images/no-img_mid_.jpg",
 				"images/item-pic.jpg",
@@ -609,10 +660,8 @@
 				"images/list1.jpg",
 				"images/blog06.jpg",
 				"person/comment.html",
-				"images/tw1.jpg",
 				"person/bindphone.html",
 				"images/iconsmall.png",
-				"images/cp2.jpg",
 				"AmazeUI-2.4.2/assets/i/examples/landing.png",
 				"images/559.png",
 				"images/header-bg.png",
@@ -628,7 +677,6 @@
 				"images/addbg.png",
 				"AmazeUI-2.4.2/assets/css/app.css",
 				"images/566fda5cN4b8a1675.gif",
-				"home/register.html",
 				"images/blog08.jpg",
 				"basic/images/wdsc.png",
 				"basic/images/chongzhi.png",
@@ -639,9 +687,7 @@
 				"images/sale-t_clock.jpg",
 				"images/YXARdXxj5.png",
 				"images/logobig2.png",
-				"css/style.css",
 				"images/blog05.jpg",
-				"images/tw3.jpg",
 				"images/blog03.jpg",
 				"css/colstyle.css",
 				"css/stepstyle.css",
@@ -651,8 +697,7 @@
 				"AmazeUI-2.4.2/assets/js/amazeui.ie8polyfill.min.js",
 				"person/address.html",
 				"images/cake.jpg",
-				"images/iconfont-good.png",
-				"images/03_small.jpg"
+				"images/iconfont-good.png"
 			]
 		}
 	}
