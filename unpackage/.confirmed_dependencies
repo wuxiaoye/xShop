@@ -9,7 +9,9 @@
 			"home/shopcart.html",
 			"css/icons-extra.css",
 			"fonts/mui-icons-extra.ttf",
-			"AmazeUI-2.4.2/assets/js/amazeui.min.js"
+			"AmazeUI-2.4.2/assets/js/amazeui.min.js",
+			"js/immersed.js",
+			"img/logo/1 (1).png"
 		],
 		"refer": [
 			"home/home.html",
@@ -52,12 +54,15 @@
 			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
 			"person/coupon.html",
 			"images/getAvatar.do.jpg",
-			"images/logobig.png"
+			"images/logobig.png",
+			"js/mui.min.js",
+			"js/app.js"
 		],
 		"refer": [
 			"person/order.html",
 			"home/home.html",
-			"person/coupon.html"
+			"person/coupon.html",
+			"person/collection.html"
 		]
 	},
 	"home/sort.html": {
@@ -81,7 +86,9 @@
 			"images/logo.png",
 			"images/logobig.png",
 			"images/candy.png",
-			"images/package.png"
+			"images/package.png",
+			"js/app.js",
+			"js/mui.min.js"
 		],
 		"refer": [
 			"home/shopcart.html",
@@ -153,7 +160,9 @@
 			"js/mui.min.js",
 			"home/login.html",
 			"home/introduction.html",
-			"js/app.js"
+			"js/app.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
 		],
 		"refer": [
 			"home/sort.html",
@@ -177,7 +186,9 @@
 			"home/pay.html",
 			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
 			"images/logobig.png",
-			"images/logo.png"
+			"images/logo.png",
+			"js/app.js",
+			"js/mui.min.js"
 		],
 		"refer": [
 			"person/index.html",
@@ -196,7 +207,11 @@
 			"AmazeUI-2.4.2/assets/css/amazeui.css",
 			"person/logistics.html",
 			"images/kouhong.jpg_80x80.jpg",
-			"person/orderinfo.html"
+			"person/orderinfo.html",
+			"css/mui.min.css",
+			"js/app.js",
+			"images/logobig.png",
+			"js/mui.min.js"
 		],
 		"refer": [
 			"person/logistics.html",
@@ -216,7 +231,13 @@
 			"images/weizhifu.jpg",
 			"AmazeUI-2.4.2/assets/css/amazeui.css",
 			"home/success.html",
-			"home/pay.html"
+			"home/pay.html",
+			"js/app.js",
+			"images/kouhong.jpg_80x80.jpg",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
+			"images/logo.png",
+			"images/logobig.png",
+			"js/mui.min.js"
 		],
 		"refer": [
 			"home/success.html",
@@ -256,7 +277,8 @@
 			"images/receive.png",
 			"AmazeUI-2.4.2/assets/js/amazeui.js",
 			"AmazeUI-2.4.2/assets/js/jquery.min.js",
-			"AmazeUI-2.4.2/assets/css/amazeui.css"
+			"AmazeUI-2.4.2/assets/css/amazeui.css",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
 		],
 		"refer": []
 	},
@@ -320,7 +342,16 @@
 			"js/list.js",
 			"basic/js/quick_links.js",
 			"images/03_small.jpg",
-			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
+			"js/mui.min.js",
+			"js/app.js",
+			"images/chongzhi.png",
+			"images/logo.png",
+			"images/logobig.png",
+			"images/imgsearch1.jpg",
+			"images/wdsc.png",
+			"images/weixin_code_145.png",
+			"images/no-img_mid_.jpg"
 		],
 		"refer": []
 	},
@@ -335,6 +366,22 @@
 			"js/mui.min.js",
 			"images/logobig.png",
 			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2"
+		],
+		"refer": []
+	},
+	"person/collection.html": {
+		"resources": [
+			"css/colstyle.css",
+			"js/app.js",
+			"images/logobig.png",
+			"js/mui.min.js",
+			"css/personal.css",
+			"AmazeUI-2.4.2/assets/css/admin.css",
+			"images/-0-saturn_solar.jpg_220x220.jpg",
+			"images/0-item_pic.jpg_220x220.jpg",
+			"images/1-item_pic.jpg_220x220.jpg",
+			"AmazeUI-2.4.2/assets/fonts/fontawesome-webfont.woff2",
+			"AmazeUI-2.4.2/assets/css/amazeui.css"
 		],
 		"refer": []
 	}

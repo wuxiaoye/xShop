@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+.x-com-not-margin-top{
+	margin-top: 0 !important;
+}
 ul, li, ol {list-style: none;}
 [class*="am-u-"] {padding-left:0rem;padding-right:0rem;}
 .am-thumbnails {margin-left: 0rem;margin-right: 0rem;}
