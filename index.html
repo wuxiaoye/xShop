@@ -31,7 +31,7 @@
 		</a>
 		<a id="bbs" class="mui-tab-item" href="person/index.html">
 			<span class="mui-icon mui-icon-contact">
-				<span class="mui-badge">1</span>
+				<!--<span class="mui-badge">1</span>-->
 			</span>
 			<span class="mui-tab-label">我的</span>
 		</a>
@@ -74,14 +74,14 @@
 			
 			//选项卡点击事件
 			var activeTab = subpages[0];
-			var title = document.getElementById("web-title");
+//			var title = document.getElementById("web-title");
 			mui('.mui-bar-tab').on('tap', 'a', function(e) {
 				var targetTab = this.getAttribute('href');
 				if (targetTab == activeTab) {
 					return;
 				}
 				//更换标题
-				title.innerHTML = this.querySelector('.mui-tab-label').innerHTML;
+//				title.innerHTML = this.querySelector('.mui-tab-label').innerHTML;
 				//显示目标选项卡
 				plus.webview.show(targetTab);
 				//隐藏当前;

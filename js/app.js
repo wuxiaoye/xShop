@@ -16,7 +16,7 @@ mui.plusReady(function(){
 		
 		console.log(href);
 		
-		if( -1 === href.indexOf('javascript:;') && -1 === href.indexOf('#')){
+		if( -1 === href.indexOf('javascript:;') && -1 === href.indexOf('#') && href != ''){
 			clicked(href, id, subpage_style);
 		}
 	});
