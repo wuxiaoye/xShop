@@ -165,7 +165,8 @@
 			"css/mui.min.css",
 			"js/immersed.js",
 			"fonts/mui-icons-extra.ttf",
-			"css/icons-extra.css"
+			"css/icons-extra.css",
+			"css/mui.css"
 		],
 		"refer": [
 			"home/sort.html",
