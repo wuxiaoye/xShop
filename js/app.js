@@ -1,4 +1,3 @@
-	
 mui.plusReady(function(){
 	mui.init({
 	});
@@ -9,7 +8,7 @@ mui.plusReady(function(){
 		var href = this.getAttribute('href');
 		var subpage_style = {
 			top: '0px',
-			bottom: '50px',
+			bottom: '0px',
 			popGesture: "close"
 		};
 		event.preventDefault();

@@ -11,7 +11,12 @@
 			"fonts/mui-icons-extra.ttf",
 			"AmazeUI-2.4.2/assets/js/amazeui.min.js",
 			"js/immersed.js",
-			"img/logo/1 (1).png"
+			"img/logo/1 (1).png",
+			"mui/js/mui.min.js",
+			"mui/css/mui.min.css",
+			"mui/fonts/mui.ttf",
+			"mui/fonts/mui-icons-extra.ttf",
+			"mui/css/icons-extra.css"
 		],
 		"refer": [
 			"home/home.html",
@@ -56,7 +61,11 @@
 			"images/getAvatar.do.jpg",
 			"images/logobig.png",
 			"js/mui.min.js",
-			"js/app.js"
+			"js/app.js",
+			"mui/js/immersed.js",
+			"mui/css/mui.css",
+			"mui/css/icons-extra.css",
+			"mui/js/mui.min.js"
 		],
 		"refer": [
 			"person/order.html",
@@ -88,7 +97,10 @@
 			"images/candy.png",
 			"images/package.png",
 			"js/app.js",
-			"js/mui.min.js"
+			"js/mui.min.js",
+			"mui/js/immersed.js",
+			"mui/css/icons-extra.css",
+			"mui/js/mui.min.js"
 		],
 		"refer": [
 			"home/shopcart.html",
@@ -166,7 +178,16 @@
 			"js/immersed.js",
 			"fonts/mui-icons-extra.ttf",
 			"css/icons-extra.css",
-			"css/mui.css"
+			"css/mui.css",
+			"mui/js/immersed.js",
+			"mui/css/mui.css",
+			"mui/js/mui.min.js",
+			"mui/fonts/mui.ttf",
+			"mui/css/icons-extra.css",
+			"mui/fonts/mui-icons-extra.ttf",
+			"img/shuijiao.jpg",
+			"img/yuantiao.jpg",
+			"mui/css/mui.min.css"
 		],
 		"refer": [
 			"home/sort.html",
@@ -192,7 +213,10 @@
 			"images/logobig.png",
 			"images/logo.png",
 			"js/app.js",
-			"js/mui.min.js"
+			"js/mui.min.js",
+			"mui/js/immersed.js",
+			"mui/js/mui.min.js",
+			"mui/css/icons-extra.css"
 		],
 		"refer": [
 			"person/index.html",

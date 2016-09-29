@@ -17,7 +17,7 @@
 		<script src="../AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
 		<script src="../AmazeUI-2.4.2/assets/js/amazeui.min.js"></script>
 
-		<link rel="stylesheet" type="text/css" href="../mui/css/mui.css"/>
+		<link rel="stylesheet" type="text/css" href="../mui/css/mui.min.css"/>
 		<link rel="stylesheet" type="text/css" href="../mui/css/icons-extra.css"/>
 		<script src="../mui/js/immersed.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../mui/js/mui.min.js" type="text/javascript" charset="utf-8"></script>
@@ -30,26 +30,34 @@
 				<a href="#" class="mui-icon mui-icon-bars mui-pull-left" style="color: #fff;"></a>
 				<div class="mui-title" style="height: 29px;line-height: 29px;margin-top: 6px;">
 					<div class="mui-input-row mui-search">
-					    <input id="search" type="search" class="mui-input-clear" placeholder="搜索商品"  style="color: #fff; height: 29px;line-height: 29px; vertical-align: middle; margin: 0; padding: 0; background-color: rgba(236, 91, 0, 0.5);">
+					    <input id="search" type="search" class="mui-input-clear" placeholder="搜索商品"  style="color: #fff; height: 29px;line-height: 29px; vertical-align: middle; margin: 0; padding: 0; background-color: rgba(236, 91, 0, 0.8);">
 					</div>
 				</div>
 				<a href="#" class="mui-icon mui-icon-extra mui-icon-extra-cart mui-pull-right" style="color: #fff;"></a>
 			</header>
 			<!--顶部导航条 -->
 			
-			<div class="banner x-com-not-margin-top">
-                      <!--轮播 -->
-						<div class="am-slider am-slider-default scoll" data-am-flexslider id="demo-slider-0">
-							<ul class="am-slides">
-								<li class="banner1"><a href="introduction.html"><img src="../images/ad1.jpg" /></a></li>
-								<li class="banner2"><a><img src="../images/ad2.jpg" /></a></li>
-								<li class="banner3"><a><img src="../images/ad3.jpg" /></a></li>
-								<li class="banner4"><a><img src="../images/ad4.jpg" /></a></li>
-
-							</ul>
-						</div>
-						<div class="clear"></div>
+			<div class="mui-content">
+				<div class="mui-slider">
+				  <div class="mui-slider-group mui-slider-loop">
+				    <!--支持循环，需要重复图片节点-->
+				    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../img/shuijiao.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="../img/yuantiao.jpg" /></a></div>
+				    <div class="mui-slider-item"><a href="#"><img src="../img/shuijiao.jpg" /></a></div>
+				    <!--支持循环，需要重复图片节点-->
+				    <div class="mui-slider-item mui-slider-item-duplicate"><a href="#"><img src="../img/yuantiao.jpg" /></a></div>
+				  </div>
+				</div>
 			</div>
+			<script type="text/javascript">
+				mui.ready(function(){
+					var gallery = mui('.mui-slider');
+					gallery.slider({
+					  interval:5000
+					});
+					
+				});
+			</script>
 			
 			<div class="shopNav">
 				<div class="slideall">
@@ -606,13 +614,8 @@
 							</div>
 						</div>
 						
-						
 						<!--轮播-->
-						
 						<script type="text/javascript">
-							(function() {
-								$('.am-slider').flexslider();
-							});
 							$(document).ready(function() {
 								$("li").hover(function() {
 									$(".category-content .category-list li.first .menu-in").css("display", "none");
@@ -625,8 +628,6 @@
 								});
 							})
 						</script>
-
-
 
 					<!--小导航 -->
 					<div class="am-g am-g-fixed smallnav">

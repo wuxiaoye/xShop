@@ -1,6 +1,6 @@
 *.project
 
-
+**/**/mui-git/
 
 **/**/xShop/.sass-cache
 **/**/xShop/node_modules
