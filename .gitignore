@@ -1,10 +1,6 @@
 *.project
 
-**/**/mui-git/.git
-**/**/mui-git/.sass-cache
-**/**/mui-git/examples
-**/**/mui-git/fonts
-**/**/mui-git/grunt
-**/**/mui-git/node_modules
-**/**/mui-git/plugin
 
+
+**/**/xShop/.sass-cache
+**/**/xShop/node_modules
